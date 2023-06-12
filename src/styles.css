@@ -1,0 +1,88 @@
+/* styles.css */
+body{
+  background-color:rgb(21, 224, 186);
+}
+.Album-Mange > h1{
+color: #2196f3;
+font-weight: 800;
+}
+.form-container{
+  display: grid;
+  justify-content: center;
+
+}
+.form-container > h2{
+  text-align: center;
+  color: #ff3d00;
+}
+.add-button{
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.add-button:hover {background-color: #3e8e41}
+
+.add-button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.input-field{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.album-item {
+  background-color: #f5f5f5;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.album-title {
+  font-size: 18px;
+  margin: 0;
+}
+
+.album-id {
+  font-size: 14px;
+  margin: 0;
+  color: #888;
+}
+
+.edit-button {
+  background-color: #2196f3;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.delete-button {
+  background-color: #ff3d00;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
